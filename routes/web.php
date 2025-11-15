@@ -20,7 +20,7 @@ Route::middleware('auth')->group(function () {
 
 // add middleware for admin so only admin can access routes inside this group
 Route::middleware(['auth', 'admin'])->group(function () {
-    Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.dashboard');
+    Route::get('/admin/admin-dashboard', [AdminController::class, 'index'])->name('admin.admin-dashboard');
 });
 
 

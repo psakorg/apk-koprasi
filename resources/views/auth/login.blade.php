@@ -676,6 +676,9 @@
     <!-- Form Container -->
     <div class="form-container animate-slideUp">
         <div class="text-center mb-8">
+            <a href="javascript:history.back()" class="form-link" style="display: inline-block; margin-bottom: 1rem; text-align: left;">
+                <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i>Kembali
+            </a>
             <h1 class="text-3xl font-bold gradient-text mb-2">Koperasi Pramatech</h1>
             <p style="color: var(--text-secondary);">Masuk ke akun Anda</p>
         </div>

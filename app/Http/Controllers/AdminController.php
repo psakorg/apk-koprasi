@@ -12,6 +12,6 @@ class AdminController extends Controller
             return redirect('/dashboard')->with('error', 'Akses ditolak!');
         }
 
-        return view('admin.dashboard');
+        return view('admin.admin-dashboard');
     }
 }
